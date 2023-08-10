@@ -4,6 +4,7 @@ import Navbar from "../Components/Navbar";
 import Now from "../Components/Now";
 import Weather from "../Components/Weather";
 import { ScaleLoader } from "react-spinners";
+import Footer from "../Components/Footer";
 
 
 const Main = () => {
@@ -30,6 +31,7 @@ const Main = () => {
                 <ScaleLoader color="#EB6F4C" />
             </div>
             }
+            <Footer/>
         </div>
     );
 };
